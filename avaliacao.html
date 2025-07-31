@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Avaliação Rápida - VAAPIX</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><h1>VAAPIX</h1></header>
+  <main>
+    <h2>Avaliação Rápida</h2>
+    <form action="https://formsubmit.co/SEUEMAIL@gmail.com" method="POST" enctype="multipart/form-data">
+      <label for="nome">Nome</label><br>
+      <input type="text" id="nome" name="nome" placeholder="Seu nome" required><br>
+      <label for="carro">Veículo</label><br>
+      <input type="text" id="carro" name="carro" placeholder="Marca / Modelo / Ano" required><br>
+      <label for="placa">Placa</label><br>
+      <input type="text" id="placa" name="placa" placeholder="Placa" required><br>
+      <label for="pix">Chave Pix</label><br>
+      <input type="text" id="pix" name="pix" placeholder="Chave Pix" required><br>
+      <label for="foto">Foto do Veículo</label><br>
+      <input type="file" id="foto" name="foto" accept="image/*"><br><br>
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://seusite.com/obrigado.html">
+      <button type="submit" class="botao">Enviar para Avaliação</button>
+    </form>
+  </main>
+  <footer><p>VAAPIX - Compra segura e pagamento via Pix</p></footer>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro de Veículo - VAAPIX</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><h1>VAAPIX</h1></header>
+  <main>
+    <h2>Cadastrar Veículo</h2>
+    <form action="https://formsubmit.co/SEUEMAIL@gmail.com" method="POST">
+      <label for="nome">Nome</label><br>
+      <input type="text" id="nome" name="nome" placeholder="Seu nome" required><br>
+      <label for="carro">Veículo</label><br>
+      <input type="text" id="carro" name="carro" placeholder="Marca / Modelo / Ano" required><br>
+      <label for="placa">Placa</label><br>
+      <input type="text" id="placa" name="placa" placeholder="Placa" required><br>
+      <label for="valor">Valor Desejado</label><br>
+      <input type="text" id="valor" name="valor" placeholder="Valor Desejado" required><br>
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://seusite.com/obrigado.html">
+      <button type="submit" class="botao">Cadastrar</button>
+    </form>
+  </main>
+  <footer><p>VAAPIX - Cadastro para venda rápida</p></footer>
+</body>
+</html>
